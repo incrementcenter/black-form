@@ -11,8 +11,90 @@
     <header>
         <h3>Sign Up</h3>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <div>
+            <label for="fname">First Name</label>
+            <div class="input-field">
+                <input type="text" id="fname" name="firstName" placeholder="Enter First Name">
+            </div>
+        </div>
+        <div>
+            <label for="lname">First Name</label>
+            <div class="input-field">
+                <input type="text" id="lname" name="lastName" placeholder="Enter Last Name">
+            </div>
+        </div>
+        <div>
+            <label for="sname">Screen Name</label>
+            <div class="input-field">
+                <input type="text" id="sname" name="screenName" placeholder="Enter Screen Name">
+            </div>
+        </div>
+        <div>
+            <label>Date Of Birth</label>
+            <div class="input-field">
+                <select name="month" title="month"></select>
+                <select name="day" title="day"></select>
+                <select name="year" title="year"></select>
+            </div>
+        </div>
+        <div>
+            <label>Gender</label>
+            <div class="input-field">
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    <span>Male</span>
+                </label>
+            </div>
+            <div class="input-field">
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    <span>Female</span>
+                </label>
+            </div>
+        </div>
+        <div>
+            <label for="country">Country</label>
+            <div class="input-field">
+                <select name="country" id="country"></select>
+            </div>
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <div class="input-field">
+                <input type="email" id="email" name="email" placeholder="Enter E-mail">
+            </div>
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <div class="input-field">
+                <input type="text" id="phone" name="phone" placeholder="Enter Phone">
+            </div>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <div class="input-field">
+                <input type="text" id="password" name="password">
+            </div>
+        </div>
+        <div>
+            <label for="confirmPassword">Screen Name</label>
+            <div class="input-field">
+                <input type="text" id="confirmPassword" name="confirmPassword">
+            </div>
+        </div>
+        <div>
+            <label></label>
+            <div class="input-field">
+                <label><input type="checkbox" name="terms" value="agree"><span>I agree to the terms of Use</span></label>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <button class="btn green" type="submit">Submit</button>
+        <button class="btn green" type="reset">Cancel</button>
+    </footer>
 </form>
 </body>
 </html>
